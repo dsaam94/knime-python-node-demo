@@ -1,0 +1,17 @@
+name: demo_python # Will be concatenated with the group_id to an ID
+author: Ali Asghar Marvi
+extension_module: src/demo_ext # The .py Python module containing the nodes of your extension
+description: Demo Extension # Human readable bundle name / description
+long_description: Pure-Python extension for Demo
+group_id: org.knime
+version: 1.0.0 # Version of this Python node extension
+vendor: KNIME AG, Zurich, Switzerland
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
+#bundled_env_name: org_knime_pythonscripting_5.4.2 # we re-use the bundled Python environment
+env_yml_path: env.yml
+#  Optionaa: define any KNIME related feature dependency here.
+feature_dependencies: 
+  - org.knime.features.chem.types # If you want to specify the version - note that this specifies the version being greater equal 5.4.0
+
+
+
